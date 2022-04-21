@@ -10,8 +10,7 @@ namespace ConsoleApp1
 			string name = Console.ReadLine();
 			Console.WriteLine($"Привет, {name}");
 			Console.WriteLine("Введите свой возраст:");
-			string age = Console.ReadLine();
-			byte convertedAge = Convert.ToByte(age);
+			int convertedAge = Convert.ToInt32(Console.ReadLine());
 			if (convertedAge <= 10)
 			{
 				Console.WriteLine("Проходи тест, юный гений!");
@@ -31,17 +30,19 @@ namespace ConsoleApp1
 			Console.WriteLine("3. Паскали");
 			Console.WriteLine("Выбирите вариант ответа: ");
 			int stranica = Convert.ToInt32(Console.ReadLine());
+			string ok = "Правильный ответ";
+			string wrong = "Не правильный ответ";
 			if (stranica == 1)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong);
 			}
 			if (stranica == 2)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong);
 			}
 			if (stranica == 3)
 			{
-				Console.WriteLine("Правильный ответ");
+				Console.WriteLine(ok);
 			}
 			Console.WriteLine("Отцом какой науки считается Геродот?");
 			Console.WriteLine("1. Геометрия");
@@ -49,17 +50,19 @@ namespace ConsoleApp1
 			Console.WriteLine("3. История");
 			Console.WriteLine("Выбирите вариант ответа: ");
 			int stranica2 = Convert.ToInt32(Console.ReadLine());
+			string ok2 = "Правильный ответ";
+			string wrong2 = "Не правильный ответ";
 			if (stranica2 == 1)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong2);
 			}
 			if (stranica2 == 2)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong2);
 			}
 			if (stranica2 == 3)
 			{
-				Console.WriteLine("Правильный ответ");
+				Console.WriteLine(ok2);
 			}
 			Console.WriteLine("Какое прозвище было у Пушкина в кругу друзей-лицеистов?");
 			Console.WriteLine("1. Француз");
@@ -67,17 +70,19 @@ namespace ConsoleApp1
 			Console.WriteLine("3. Кудрявый");
 			Console.WriteLine("Выбирите вариант ответа: ");
 			int stranica3 = Convert.ToInt32(Console.ReadLine());
+			string ok3 = "Правильный ответ";
+			string wrong3 = "Не правильный ответ";
 			if (stranica3 == 1)
 			{
-				Console.WriteLine("Правильный ответ");
+				Console.WriteLine(ok3);
 			}
 			if (stranica3 == 2)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong3);
 			}
 			if (stranica3 == 3)
 			{
-				Console.WriteLine("Не правильный ответ");
+				Console.WriteLine(wrong3);
 			}
 		}
 	}

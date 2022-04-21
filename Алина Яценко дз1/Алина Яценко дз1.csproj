@@ -6,4 +6,8 @@
     <RootNamespace>Алина_Яценко_дз1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="D:\Робоча\АЛИНА\.NET\Alina Yatsenko hw1 variant2.cs" Link="Alina Yatsenko hw1 variant2.cs" />
+  </ItemGroup>
+
 </Project>
